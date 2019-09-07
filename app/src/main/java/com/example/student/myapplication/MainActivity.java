@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         thoat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder b=new AlertDialog.Builder(MainActivity.this);
+                AlertDialog.Builder a=new AlertDialog.Builder(MainActivity.this);
                 a.setTitle("Thông Báo");
                 a.setMessage("Bạn có muốn thoát không?");
                 a.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
